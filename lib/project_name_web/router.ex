@@ -19,6 +19,7 @@ defmodule ProjectNameWeb.Router do
     get "/", PageController, :index
     get "/posts", PostsController, :index
     post "/posts", PostsController, :create
+    resources "/users", UserController
   end
 
 
