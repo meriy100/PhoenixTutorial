@@ -1,0 +1,3 @@
+<h1>Hello Test world</h1>
+<%= @foo %>
+<%= bar() %>
