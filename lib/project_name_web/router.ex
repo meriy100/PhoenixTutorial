@@ -17,7 +17,8 @@ defmodule ProjectNameWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/foo", FooController, :index
+    get "/posts", PostsController, :index
+    post "/posts", PostsController, :create
   end
 
 

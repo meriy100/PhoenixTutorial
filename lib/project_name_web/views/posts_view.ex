@@ -1,4 +1,4 @@
-defmodule ProjectNameWeb.FooView do
+defmodule ProjectNameWeb.PostsView do
   use ProjectNameWeb, :view
 
   def bar() do
