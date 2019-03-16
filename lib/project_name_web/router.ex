@@ -20,6 +20,7 @@ defmodule ProjectNameWeb.Router do
     get "/posts", PostsController, :index
     post "/posts", PostsController, :create
     resources "/users", UserController
+    resources "/books", BookController
   end
 
 

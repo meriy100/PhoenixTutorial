@@ -3,9 +3,6 @@ defmodule ProjectNameWeb.PostsController do
 
   def index(conn, _params) do
     post = ProjectName.Post.changeset(%ProjectName.Post{}, %{title: "タイトル", views: 1})
-#    IO.puts post.title
-#    post = ProjectName.Repo.get ProjectName.Post, 1
-
     render conn, "index.html", foo: "bar2", post: post
   end
 
